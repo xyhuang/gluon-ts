@@ -1,0 +1,248 @@
+INFO:root:using dataset already processed in path electricity.
+INFO:root:Start model training
+INFO:root:Number of parameters in DeepARTrainingNetwork: 20183
+INFO:root:Epoch[0] Learning rate is 0.001
+  0%|          | 0/64 [00:00<?, ?it/s] 16%|█▌        | 10/64 [00:10<00:56,  1.05s/it, avg_epoch_loss=7.63] 33%|███▎      | 21/64 [00:21<00:44,  1.04s/it, avg_epoch_loss=7.33] 52%|█████▏    | 33/64 [00:32<00:30,  1.00it/s, avg_epoch_loss=7.02] 70%|███████   | 45/64 [00:42<00:18,  1.05it/s, avg_epoch_loss=6.78] 89%|████████▉ | 57/64 [00:53<00:06,  1.08it/s, avg_epoch_loss=6.61]100%|██████████| 64/64 [00:59<00:00,  1.07it/s, avg_epoch_loss=6.56]
+INFO:root:Epoch[0] Elapsed time 59.576 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.562806
+INFO:root:Epoch[1] Learning rate is 0.001
+  0%|          | 0/64 [00:00<?, ?it/s] 19%|█▉        | 12/64 [00:10<00:45,  1.13it/s, avg_epoch_loss=5.78] 39%|███▉      | 25/64 [00:20<00:33,  1.17it/s, avg_epoch_loss=5.78] 59%|█████▉    | 38/64 [00:31<00:21,  1.18it/s, avg_epoch_loss=5.74] 80%|███████▉  | 51/64 [00:43<00:11,  1.15it/s, avg_epoch_loss=5.72]100%|██████████| 64/64 [00:54<00:00,  1.18it/s, avg_epoch_loss=5.73]
+INFO:root:Epoch[1] Elapsed time 54.120 seconds
+INFO:root:Epoch[1] Evaluation metric 'epoch_loss'=5.730648
+INFO:root:Epoch[2] Learning rate is 0.001
+  0%|          | 0/64 [00:00<?, ?it/s] 17%|█▋        | 11/64 [00:10<00:48,  1.10it/s, avg_epoch_loss=5.54] 36%|███▌      | 23/64 [00:20<00:36,  1.12it/s, avg_epoch_loss=5.69] 55%|█████▍    | 35/64 [00:30<00:25,  1.14it/s, avg_epoch_loss=5.65] 73%|███████▎  | 47/64 [00:40<00:14,  1.16it/s, avg_epoch_loss=5.6]  92%|█████████▏| 59/64 [00:50<00:04,  1.16it/s, avg_epoch_loss=5.57]100%|██████████| 64/64 [00:55<00:00,  1.15it/s, avg_epoch_loss=5.56]
+INFO:root:Epoch[2] Elapsed time 55.690 seconds
+INFO:root:Epoch[2] Evaluation metric 'epoch_loss'=5.562885
+INFO:root:Epoch[3] Learning rate is 0.001
+  0%|          | 0/64 [00:00<?, ?it/s] 17%|█▋        | 11/64 [00:10<00:48,  1.09it/s, avg_epoch_loss=5.46] 36%|███▌      | 23/64 [00:20<00:36,  1.11it/s, avg_epoch_loss=5.45] 55%|█████▍    | 35/64 [00:31<00:26,  1.11it/s, avg_epoch_loss=5.45] 73%|███████▎  | 47/64 [00:41<00:15,  1.11it/s, avg_epoch_loss=5.46] 94%|█████████▍| 60/64 [00:52<00:03,  1.14it/s, avg_epoch_loss=5.48]100%|██████████| 64/64 [00:56<00:00,  1.13it/s, avg_epoch_loss=5.47]
+INFO:root:Epoch[3] Elapsed time 56.711 seconds
+INFO:root:Epoch[3] Evaluation metric 'epoch_loss'=5.468252
+INFO:root:Epoch[4] Learning rate is 0.001
+  0%|          | 0/64 [00:00<?, ?it/s] 19%|█▉        | 12/64 [00:10<00:44,  1.16it/s, avg_epoch_loss=5.34] 39%|███▉      | 25/64 [00:20<00:32,  1.18it/s, avg_epoch_loss=5.37] 59%|█████▉    | 38/64 [00:32<00:22,  1.18it/s, avg_epoch_loss=5.38] 78%|███████▊  | 50/64 [00:42<00:12,  1.16it/s, avg_epoch_loss=5.41] 97%|█████████▋| 62/64 [00:54<00:01,  1.13it/s, avg_epoch_loss=5.41]100%|██████████| 64/64 [00:55<00:00,  1.15it/s, avg_epoch_loss=5.41]
+INFO:root:Epoch[4] Elapsed time 55.666 seconds
+INFO:root:Epoch[4] Evaluation metric 'epoch_loss'=5.409313
+INFO:root:Loading parameters from best epoch (4)
+INFO:root:Final loss: 5.4093132466077805 (occurred at epoch 4)
+INFO:root:End model training
+  0%|          | 0/321 [00:00<?, ?it/s]100%|██████████| 321/321 [00:00<00:00, 604.40it/s]
+INFO:gluonts.evaluation.backtest:gluonts[train_dataset_stats]: cats: []
+integer_dataset: True
+max_target: 764000.0
+mean_abs_target: 2510.680722219163
+mean_target: 2510.680722219163
+mean_target_length: 21044.0
+min_target: 0.0
+num_dynamic_feat: 0
+num_missing_values: 0
+num_time_observations: 6755124
+num_time_series: 321
+scale_histogram: count of scales in 7.0-15.0:1
+count of scales in 15.0-31.0:3
+count of scales in 31.0-63.0:8
+count of scales in 63.0-127.0:17
+count of scales in 127.0-255.0:40
+count of scales in 255.0-511.0:80
+count of scales in 511.0-1023.0:67
+count of scales in 1023.0-2047.0:40
+count of scales in 2047.0-4095.0:33
+count of scales in 4095.0-8191.0:17
+count of scales in 8191.0-16383.0:10
+count of scales in 16383.0-32767.0:2
+count of scales in 32767.0-65535.0:1
+count of scales in 65535.0-131071.0:1
+count of scales in 131071.0-262143.0:1
+  0%|          | 0/2247 [00:00<?, ?it/s]100%|██████████| 2247/2247 [00:03<00:00, 610.17it/s]
+INFO:gluonts.evaluation.backtest:gluonts[test_dataset_stats]: cats: []
+integer_dataset: True
+max_target: 764000.0
+mean_abs_target: 2509.915425002705
+mean_target: 2509.915425002705
+mean_target_length: 21140.0
+min_target: 0.0
+num_dynamic_feat: 0
+num_missing_values: 0
+num_time_observations: 47501580
+num_time_series: 2247
+scale_histogram: count of scales in 7.0-15.0:7
+count of scales in 15.0-31.0:21
+count of scales in 31.0-63.0:56
+count of scales in 63.0-127.0:119
+count of scales in 127.0-255.0:280
+count of scales in 255.0-511.0:560
+count of scales in 511.0-1023.0:469
+count of scales in 1023.0-2047.0:280
+count of scales in 2047.0-4095.0:231
+count of scales in 4095.0-8191.0:119
+count of scales in 8191.0-16383.0:70
+count of scales in 16383.0-32767.0:14
+count of scales in 32767.0-65535.0:7
+count of scales in 65535.0-131071.0:7
+count of scales in 131071.0-262143.0:7
+Running evaluation:   0%|          | 0/2247 [00:00<?, ?it/s]Running evaluation:  11%|█▏        | 257/2247 [00:10<01:17, 25.59it/s]Running evaluation:  23%|██▎       | 513/2247 [00:20<01:08, 25.36it/s]Running evaluation:  34%|███▍      | 769/2247 [00:30<00:58, 25.41it/s]Running evaluation:  46%|████▌     | 1026/2247 [00:40<00:47, 25.50it/s]Running evaluation:  58%|█████▊    | 1305/2247 [00:50<00:35, 26.17it/s]Running evaluation:  70%|███████   | 1584/2247 [01:01<00:25, 25.72it/s]Running evaluation:  83%|████████▎ | 1857/2247 [01:12<00:15, 25.62it/s]Running evaluation:  95%|█████████▍| 2128/2247 [01:22<00:04, 26.05it/s]Running evaluation: 100%|██████████| 2247/2247 [01:27<00:00, 25.81it/s]
+INFO:gluonts.evaluation.backtest:gluonts[metric-MSE]: 2871091.9651312726
+INFO:gluonts.evaluation.backtest:gluonts[metric-abs_error]: 9343641.163953781
+INFO:gluonts.evaluation.backtest:gluonts[metric-abs_target_sum]: 128632956.0
+INFO:gluonts.evaluation.backtest:gluonts[metric-abs_target_mean]: 2385.272140631954
+INFO:gluonts.evaluation.backtest:gluonts[metric-seasonal_error]: 189.49338196116761
+INFO:gluonts.evaluation.backtest:gluonts[metric-MASE]: 0.7933419069167539
+INFO:gluonts.evaluation.backtest:gluonts[metric-sMAPE]: 0.1111080927665894
+INFO:gluonts.evaluation.backtest:gluonts[metric-MSIS]: 9.91588456285538
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.1]]: 3899430.0019678576
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.1]]: 0.1732495178756861
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.2]]: 6143816.896309479
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.2]]: 0.29611704494882063
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.3]]: 7670501.003110776
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.3]]: 0.4013870345646046
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.4]]: 8720491.30545055
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.4]]: 0.4983496513870345
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.5]]: 9343641.097511843
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.5]]: 0.5880989467438065
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.6]]: 9578699.030321706
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.6]]: 0.6622348316273551
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.7]]: 9367828.191449344
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.7]]: 0.7372051624388073
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.8]]: 8637506.8538737
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.8]]: 0.809375463581071
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.9]]: 6981531.250672525
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.9]]: 0.8834742619789349
+INFO:gluonts.evaluation.backtest:gluonts[metric-RMSE]: 1694.4296872786645
+INFO:gluonts.evaluation.backtest:gluonts[metric-NRMSE]: 0.7103716420507651
+INFO:gluonts.evaluation.backtest:gluonts[metric-ND]: 0.07263800393387353
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.1]]: 0.030314393163505142
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.2]]: 0.047762385996240955
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.3]]: 0.059630916070301423
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.4]]: 0.06779360108501704
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.5]]: 0.07263800341735008
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.6]]: 0.07446535730953509
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.7]]: 0.0728260352770665
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.8]]: 0.06714847518449082
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.9]]: 0.05427482557947689
+INFO:gluonts.evaluation.backtest:gluonts[metric-mean_wQuantileLoss]: 0.06076155478699822
+INFO:gluonts.evaluation.backtest:gluonts[metric-MAE_Coverage]: 0.06472704346536122
+NRMSE: 0.7103716420507651
+ND: 0.07263800393387353
+INFO:root:Start model training
+INFO:root:Number of parameters in DeepARTrainingNetwork: 20183
+INFO:root:Epoch[0] Learning rate is 0.001
+  0%|          | 0/64 [00:00<?, ?it/s] 14%|█▍        | 9/64 [00:10<01:01,  1.11s/it, avg_epoch_loss=7.33] 31%|███▏      | 20/64 [00:20<00:46,  1.05s/it, avg_epoch_loss=6.91] 48%|████▊     | 31/64 [00:30<00:33,  1.03s/it, avg_epoch_loss=6.67] 67%|██████▋   | 43/64 [00:40<00:20,  1.03it/s, avg_epoch_loss=6.48] 86%|████████▌ | 55/64 [00:51<00:08,  1.07it/s, avg_epoch_loss=6.36]100%|██████████| 64/64 [00:59<00:00,  1.08it/s, avg_epoch_loss=6.3] 
+INFO:root:Epoch[0] Elapsed time 59.529 seconds
+INFO:root:Epoch[0] Evaluation metric 'epoch_loss'=6.303714
+INFO:root:Epoch[1] Learning rate is 0.001
+  0%|          | 0/64 [00:00<?, ?it/s] 17%|█▋        | 11/64 [00:10<00:48,  1.08it/s, avg_epoch_loss=5.93] 36%|███▌      | 23/64 [00:20<00:37,  1.11it/s, avg_epoch_loss=5.81] 55%|█████▍    | 35/64 [00:30<00:25,  1.12it/s, avg_epoch_loss=5.76] 73%|███████▎  | 47/64 [00:41<00:14,  1.14it/s, avg_epoch_loss=5.77] 94%|█████████▍| 60/64 [00:51<00:03,  1.16it/s, avg_epoch_loss=5.76]100%|██████████| 64/64 [00:55<00:00,  1.15it/s, avg_epoch_loss=5.75]
+INFO:root:Epoch[1] Elapsed time 55.704 seconds
+INFO:root:Epoch[1] Evaluation metric 'epoch_loss'=5.746402
+INFO:root:Epoch[2] Learning rate is 0.001
+  0%|          | 0/64 [00:00<?, ?it/s] 19%|█▉        | 12/64 [00:10<00:44,  1.16it/s, avg_epoch_loss=5.71] 39%|███▉      | 25/64 [00:21<00:33,  1.18it/s, avg_epoch_loss=5.7]  59%|█████▉    | 38/64 [00:31<00:21,  1.19it/s, avg_epoch_loss=5.63] 80%|███████▉  | 51/64 [00:43<00:11,  1.16it/s, avg_epoch_loss=5.62] 98%|█████████▊| 63/64 [00:53<00:00,  1.16it/s, avg_epoch_loss=5.6] 100%|██████████| 64/64 [00:54<00:00,  1.17it/s, avg_epoch_loss=5.61]
+INFO:root:Epoch[2] Elapsed time 54.665 seconds
+INFO:root:Epoch[2] Evaluation metric 'epoch_loss'=5.606350
+INFO:root:Epoch[3] Learning rate is 0.001
+  0%|          | 0/64 [00:00<?, ?it/s] 17%|█▋        | 11/64 [00:10<00:49,  1.07it/s, avg_epoch_loss=5.61] 36%|███▌      | 23/64 [00:20<00:37,  1.10it/s, avg_epoch_loss=5.51] 55%|█████▍    | 35/64 [00:31<00:26,  1.11it/s, avg_epoch_loss=5.5]  73%|███████▎  | 47/64 [00:42<00:15,  1.10it/s, avg_epoch_loss=5.51] 92%|█████████▏| 59/64 [00:53<00:04,  1.10it/s, avg_epoch_loss=5.5] 100%|██████████| 64/64 [00:58<00:00,  1.10it/s, avg_epoch_loss=5.49]
+INFO:root:Epoch[3] Elapsed time 58.251 seconds
+INFO:root:Epoch[3] Evaluation metric 'epoch_loss'=5.488918
+INFO:root:Epoch[4] Learning rate is 0.001
+  0%|          | 0/64 [00:00<?, ?it/s] 17%|█▋        | 11/64 [00:10<00:50,  1.05it/s, avg_epoch_loss=5.56] 36%|███▌      | 23/64 [00:21<00:38,  1.07it/s, avg_epoch_loss=5.47] 55%|█████▍    | 35/64 [00:31<00:26,  1.10it/s, avg_epoch_loss=5.44] 73%|███████▎  | 47/64 [00:41<00:15,  1.12it/s, avg_epoch_loss=5.4]  92%|█████████▏| 59/64 [00:52<00:04,  1.13it/s, avg_epoch_loss=5.41]100%|██████████| 64/64 [00:56<00:00,  1.13it/s, avg_epoch_loss=5.37]
+INFO:root:Epoch[4] Elapsed time 56.831 seconds
+INFO:root:Epoch[4] Evaluation metric 'epoch_loss'=5.372886
+INFO:root:Loading parameters from best epoch (4)
+INFO:root:Final loss: 5.372886210680008 (occurred at epoch 4)
+INFO:root:End model training
+  0%|          | 0/321 [00:00<?, ?it/s]100%|██████████| 321/321 [00:00<00:00, 619.84it/s]
+INFO:gluonts.evaluation.backtest:gluonts[train_dataset_stats]: cats: []
+integer_dataset: True
+max_target: 764000.0
+mean_abs_target: 2510.680722219163
+mean_target: 2510.680722219163
+mean_target_length: 21044.0
+min_target: 0.0
+num_dynamic_feat: 0
+num_missing_values: 0
+num_time_observations: 6755124
+num_time_series: 321
+scale_histogram: count of scales in 7.0-15.0:1
+count of scales in 15.0-31.0:3
+count of scales in 31.0-63.0:8
+count of scales in 63.0-127.0:17
+count of scales in 127.0-255.0:40
+count of scales in 255.0-511.0:80
+count of scales in 511.0-1023.0:67
+count of scales in 1023.0-2047.0:40
+count of scales in 2047.0-4095.0:33
+count of scales in 4095.0-8191.0:17
+count of scales in 8191.0-16383.0:10
+count of scales in 16383.0-32767.0:2
+count of scales in 32767.0-65535.0:1
+count of scales in 65535.0-131071.0:1
+count of scales in 131071.0-262143.0:1
+  0%|          | 0/2247 [00:00<?, ?it/s]100%|██████████| 2247/2247 [00:03<00:00, 603.60it/s]
+INFO:gluonts.evaluation.backtest:gluonts[test_dataset_stats]: cats: []
+integer_dataset: True
+max_target: 764000.0
+mean_abs_target: 2509.915425002705
+mean_target: 2509.915425002705
+mean_target_length: 21140.0
+min_target: 0.0
+num_dynamic_feat: 0
+num_missing_values: 0
+num_time_observations: 47501580
+num_time_series: 2247
+scale_histogram: count of scales in 7.0-15.0:7
+count of scales in 15.0-31.0:21
+count of scales in 31.0-63.0:56
+count of scales in 63.0-127.0:119
+count of scales in 127.0-255.0:280
+count of scales in 255.0-511.0:560
+count of scales in 511.0-1023.0:469
+count of scales in 1023.0-2047.0:280
+count of scales in 2047.0-4095.0:231
+count of scales in 4095.0-8191.0:119
+count of scales in 8191.0-16383.0:70
+count of scales in 16383.0-32767.0:14
+count of scales in 32767.0-65535.0:7
+count of scales in 65535.0-131071.0:7
+count of scales in 131071.0-262143.0:7
+Running evaluation:   0%|          | 0/2247 [00:00<?, ?it/s]Running evaluation:  11%|█▏        | 257/2247 [00:10<01:19, 24.94it/s]Running evaluation:  24%|██▎       | 530/2247 [00:20<01:07, 25.60it/s]Running evaluation:  36%|███▌      | 803/2247 [00:30<00:55, 25.94it/s]Running evaluation:  48%|████▊     | 1089/2247 [00:41<00:44, 26.12it/s]Running evaluation:  61%|██████▏   | 1377/2247 [00:51<00:32, 26.39it/s]Running evaluation:  74%|███████▍  | 1665/2247 [01:02<00:21, 26.59it/s]Running evaluation:  86%|████████▌ | 1936/2247 [01:12<00:11, 26.61it/s]Running evaluation:  98%|█████████▊| 2209/2247 [01:23<00:01, 26.38it/s]Running evaluation: 100%|██████████| 2247/2247 [01:24<00:00, 26.68it/s]
+INFO:gluonts.evaluation.backtest:gluonts[metric-MSE]: 2583422.2886380265
+INFO:gluonts.evaluation.backtest:gluonts[metric-abs_error]: 8821443.866522312
+INFO:gluonts.evaluation.backtest:gluonts[metric-abs_target_sum]: 128632956.0
+INFO:gluonts.evaluation.backtest:gluonts[metric-abs_target_mean]: 2385.272140631954
+INFO:gluonts.evaluation.backtest:gluonts[metric-seasonal_error]: 189.49338196116761
+INFO:gluonts.evaluation.backtest:gluonts[metric-MASE]: 0.7566315513063208
+INFO:gluonts.evaluation.backtest:gluonts[metric-sMAPE]: 0.10978404598748692
+INFO:gluonts.evaluation.backtest:gluonts[metric-MSIS]: 10.208180968858768
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.1]]: 3710279.652618509
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.1]]: 0.18673045542204422
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.2]]: 5724027.114446222
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.2]]: 0.3063158285120902
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.3]]: 7183785.002239969
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.3]]: 0.41308782079810114
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.4]]: 8193241.909148223
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.4]]: 0.5114411808337042
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.5]]: 8821443.82146496
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.5]]: 0.5991507194778222
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.6]]: 9125744.229074957
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.6]]: 0.6688733125649015
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.7]]: 8990512.972464126
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.7]]: 0.7409694407357958
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.8]]: 8300195.673054969
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.8]]: 0.8084483014389557
+INFO:gluonts.evaluation.backtest:gluonts[metric-QuantileLoss[0.9]]: 6704613.174777564
+INFO:gluonts.evaluation.backtest:gluonts[metric-Coverage[0.9]]: 0.8772251891410769
+INFO:gluonts.evaluation.backtest:gluonts[metric-RMSE]: 1607.3027993001276
+INFO:gluonts.evaluation.backtest:gluonts[metric-NRMSE]: 0.6738446200416733
+INFO:gluonts.evaluation.backtest:gluonts[metric-ND]: 0.0685784121024344
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.1]]: 0.028843927466134796
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.2]]: 0.04449891608217588
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.3]]: 0.055847157879509265
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.4]]: 0.06369473394631639
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.5]]: 0.06857841175215595
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.6]]: 0.07094406062685021
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.7]]: 0.06989276505831155
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.8]]: 0.06452619865981288
+INFO:gluonts.evaluation.backtest:gluonts[metric-wQuantileLoss[0.9]]: 0.05212204852679871
+INFO:gluonts.evaluation.backtest:gluonts[metric-mean_wQuantileLoss]: 0.0576609133331184
+INFO:gluonts.evaluation.backtest:gluonts[metric-MAE_Coverage]: 0.07308798562692645
+NRMSE: 0.6738446200416733
+ND: 0.0685784121024344
+Train time: 567.2361376285553
+Evaluation time: 180.6951127052307
+Run time: 747.9327127933502
